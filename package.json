@@ -1,0 +1,24 @@
+{
+  "name": "meds-storage",
+  "version": "1.0.0",
+  "description": "Basic app to keep track of meds (stock, expiration dates, etc) around the house.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/H3t0r/meds-storage.git"
+  },
+  "keywords": [
+    "AngularJS",
+    "SemanticUI",
+    "Jest"
+  ],
+  "author": "H3t0r",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/H3t0r/meds-storage/issues"
+  },
+  "homepage": "https://github.com/H3t0r/meds-storage#readme"
+}
