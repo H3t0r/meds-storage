@@ -4,6 +4,8 @@
   "description": "Basic app to keep track of meds (stock, expiration dates, etc) around the house.",
   "main": "app.js",
   "scripts": {
+    "build": "rm -rf public/ && brunch build",
+    "dev": "brunch watch --server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +22,24 @@
   "bugs": {
     "url": "https://github.com/H3t0r/meds-storage/issues"
   },
-  "homepage": "https://github.com/H3t0r/meds-storage#readme"
+  "homepage": "https://github.com/H3t0r/meds-storage#readme",
+  "dependencies": {
+    "@uirouter/angularjs": "^1.0.15",
+    "angular": "^1.6.9",
+    "angularfire": "^2.3.0",
+    "firebase": "^5.2.0",
+    "jquery": "^3.3.1",
+    "semantic-ui-css": "^2.3.0"
+  },
+  "devDependencies": {
+    "auto-reload-brunch": "^2.7.1",
+    "babel-brunch": "^6.1.1",
+    "babel-preset-env": "^1.7.0",
+    "brunch": "^2.10.12",
+    "copycat-brunch": "^1.1.0",
+    "eslint": "^5.0.1",
+    "eslint-brunch": "^3.12.0",
+    "eslint-config-prettier": "^2.9.0",
+    "html-pages-brunch": "^2.7.0"
+  }
 }
